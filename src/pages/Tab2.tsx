@@ -17,6 +17,7 @@ import {
 import ExploreContainer from "../components/ExploreContainer";
 import "./Tab2.css";
 import { usePhotoGallery } from "../hooks/usePhotoGallery";
+import React from "react";
 
 const Tab2: React.FC = () => {
   const { photos, takePhoto } = usePhotoGallery();
